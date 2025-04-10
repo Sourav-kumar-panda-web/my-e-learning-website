@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning AI Assistant</title>
+    <link rel="stylesheet" href="assistant.css">
+</head>
+<body>
+
+<nav>
+  <h2>My E-Learning</h2>
+</nav>
+
+<!-- LIA ASSISTANT -->
+<div class="lia-container">
+  <img src="lia-avatar.png" alt="Lia" class="lia-avatar">
+  <div class="lia-chat">
+      <p id="lia-response">Hi, I'm Lia! How can I help you today?</p>
+  </div>
+  <input type="text" id="lia-input" placeholder="Ask me anything..." onkeypress="sendMessage(event)">
+</div>
+
+<link rel="stylesheet" href="lia.css">
+<script src="lia.js"></script>
+
+<script src="assistant.js"></script>
+
+</body>
+</html>
